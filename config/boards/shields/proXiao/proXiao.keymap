@@ -9,14 +9,13 @@
 #define RSE 2
 #define ADJ 3
 
-&lt { quick_tap_ms = <220>; };
-&mt { quick_tap_ms = <220>; };
+&lt {
+    quick_tap_ms = <220>;
+};
 
-
-
-
-
-
+&mt {
+    quick_tap_ms = <220>;
+};
 
 / {
     macros {
@@ -59,8 +58,8 @@
         default_layer {
             // ------------------------------------------------------------------------------------------------
             //| LGUI/] |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | RGUI/[ | 
-            //| CTRL/` |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  | CTRL/' |
-            //| LALT/\ |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | RALT/- |
+            //| LALT/` |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  | RALT/' |
+            //| CTRL/\ |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | CTRL/- |
             //                             | RSE | SPC | LWR |   | LWR | BKSP | RSE |
 
             bindings = <
